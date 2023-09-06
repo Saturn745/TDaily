@@ -1,0 +1,22 @@
+#The commands to run when a player runs /daily
+#Placeholders: <player>
+commands:
+  -
+    name: tell1
+    permission: true #Optional. Default: false
+    commands:
+      - "tell <player> Hello <player>"
+      - "tell <player> You can run this command once a day if you have tdaily.claim.tell1"
+  -
+    name: tell2
+    permission: false #Optional. Default: false
+    commands:
+      - "tell <player> Hello <player>"
+      - "tell <player> You can run this command once a day without any permissions"
+
+
+
+messages:
+  claimed: "<green>You have claimed your keys for today! Check back in <yellow>24 hours</yellow> to claim them again.</green>"
+  cooldown: "<red>You cannot execute this command until <hours> hours <minutes> minutes <seconds> seconds have passed since the last execution.</red>"   #Placeholders, <hours>, <minutes>, <seconds>
+  no-rewards: "<red>There are no rewards for you to claim today.</red>"

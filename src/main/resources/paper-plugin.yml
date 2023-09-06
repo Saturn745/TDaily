@@ -1,0 +1,8 @@
+name: TDaily
+version: 1.0.0
+main: xyz.galaxyy.tdaily.TDaily
+api-version: "1.20"
+authors:
+  - Element4521
+
+website: https://modrinth.com/plugin/tdaily
